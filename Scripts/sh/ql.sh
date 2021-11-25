@@ -223,7 +223,7 @@ if [ "$port" != "2" ]; then
         read -r QL_PORT
     done
     echo -e "\e[34m恭喜，端口:$QL_PORT 可用\e[0m"
-    MAPPING_QL_PORT="-p $QL_PORT:5700"
+    MAPPING_QL_PORT="-p $QL_PORT:5600"
 fi
 
 log "3.开始创建容器并执行"
